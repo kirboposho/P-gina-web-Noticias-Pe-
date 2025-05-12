@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Itim&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+a{
+    color:white;
+    font-family:"Itim";
+    font-size:20px;
+    display:inline-block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Alfa Slab One";
+    font-weight: 200;
+    color:white;
+    position:relative;
+    left:550px;
+}
+body{
+    background: rgb(245, 239, 227);
+}
+
+.welcome{
+   font-family: "Alfa Slab One";
+   font-weight: 200;
+   padding:5% 10%;
+   display:flex;
+   align-items: center;
+   flex-direction:column;
+
+}
+.botelladeagua{
+    display: block;
+    
+}
+
+.main_header, .main_footer{
+    display: flex ;
+    background-color: rgb(202, 165, 125);
+    padding: 15px 50px;
+    margin:0px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+}
+article{
+    background-color:  rgb(230, 204, 169);
+    padding: 25px;
+    border-radius: 20px;
+    margin:20px;
+    font-family: "Itim";
+    color:white;
+    display:inline-block;
+}
+
+img{
+    width: 400px;
+    height:300px;
+    display:inline-block;
+}
+.special_img{
+    width: 200px;
+    height:200px;
+    display:inline;
+}
+.article_one{
+    display:flex;
+    justify-content: flex-end;
+    flex-flow:column;  
+}
+.img>.article_one{
+    align-self:center;
+}
+.div_one{
+    display: flex;
+    justify-content: flex-end;
+}
+.header_welcome{
+    display: flex; 
+    align-self: flex-start;
+}
