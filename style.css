@@ -5,11 +5,16 @@ a{
     font-family:"Itim";
     font-size:20px;
     display:inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3cm;
+    width: 50px;
+    text-align: center;
 }
 
 *{
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 h1{
@@ -33,7 +38,7 @@ body{
 
 }
 .botelladeagua{
-    display: block;
+    display: flex;
     
 }
 
@@ -55,29 +60,25 @@ article{
     margin:20px;
     font-family: "Itim";
     color:white;
-    display:inline-block;
+    display:flex;
+    
+}
+p{
+    font-size: 20px;
 }
 
 img{
     width: 400px;
     height:300px;
-    display:inline-block;
+    display:flex;
 }
 .special_img{
     width: 200px;
     height:200px;
     display:inline;
 }
-.article_one{
-    display:flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
 
-.div_one{
-    display: flex;
-    justify-content: flex-end;
-}
+
 .header_welcome{
     display: flex; 
     align-self: flex-start;
@@ -88,7 +89,10 @@ img{
     align-self: flex-end;
     justify-self: flex-end;
 }
-.special_p{
+.special_footer{
     align-self: flex-end;
     justify-self: flex-end;
+}
+div>.article_one{
+    flex-direction: row;
 }
